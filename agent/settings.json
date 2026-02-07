@@ -1,0 +1,18 @@
+{
+  "lastChangelogVersion": "0.52.7",
+  "shellCommandPrefix": "shopt -s expand_aliases\neval \"$(grep '^alias ' ~/.config/fish/config.fish)\"",
+  "defaultProvider": "kimi-coding",
+  "defaultModel": "k2p5",
+  "defaultThinkingLevel": "low",
+  "showHardwareCursor": false,
+  "editorPaddingX": 1,
+  "doubleEscapeAction": "tree",
+  "theme": "dark",
+  "enabledModels": [
+    "kimi-coding/k2p5",
+    "google-antigravity/gemini-3-flash",
+    "google-antigravity/claude-sonnet-4-5",
+    "google-antigravity/claude-opus-4-5-thinking"
+  ],
+  "hideThinkingBlock": false
+}

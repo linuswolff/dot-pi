@@ -1,0 +1,27 @@
+# Exclude everything by default
+*
+
+# Whitelist the agent directory
+!agent/
+
+# Inside agent, exclude everything except specific items
+agent/*
+
+# Whitelist what we want to sync
+!agent/extensions/
+!agent/skills/
+!agent/themes/
+!agent/intercepted-commands/
+!agent/settings.json
+
+# Never sync these (secrets/sessions/data)
+agent/auth.json
+agent/sessions/
+
+# Exclude the nested .pi directory (todos)
+agent/.pi/
+
+# Standard git files
+!.gitignore
+!README.md
+!LICENSE
